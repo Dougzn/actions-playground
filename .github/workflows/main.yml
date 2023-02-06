@@ -42,9 +42,10 @@ jobs:
         - print_date_ubuntu
         - print_date_windows
         - print_date_macos
+      
       steps: 
-      - name : Print Date Final!
-        run: | 
-        echo ' Date Final'
-        date
+       - name : Print Date Final!
+         run: |
+          echo ' Date Final'
+          date
         
